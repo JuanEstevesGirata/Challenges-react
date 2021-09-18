@@ -2,25 +2,18 @@ import React, { useEffect, useRef, useState } from 'react'
 
 
 const Pagination = (props) => {
-    const {handleNext, handlePrev,page} = props;
-    
-
+    const {hadleNextPage, hadlePrevPage, page} = props;
     
     const progress = useRef(null)
-
-    
+   
     const circles = document.querySelectorAll('.circle')
-    // const circles = useRef(null)
+    
 
     useEffect(() => {
             
-                const actives = document.querySelectorAll('.active')
-                progress.current.style.width = ((actives.length - 1) / (circles.length - 1)) * 100 + '%'
-        
-            
-            
-        
-        
+        const actives = document.querySelectorAll('.active')
+        progress.current.style.width = ((actives.length - 1) / (circles.length - 1)) * 100 + '%'
+
     }, [page])
 
 
@@ -39,20 +32,22 @@ const Pagination = (props) => {
                 <div className={page>=2 ? 'circle active': 'circle'} >2</div>
                 <div className={page>=3 ? 'circle active': 'circle'} >3</div>
                 <div className={page>=4 ? 'circle active': 'circle'} >4</div>
+                <div className={page>=5 ? 'circle active': 'circle'} >5</div>
             </div>
             <div>
-                <button className="btn" id="prev" disabled={(page<=1 ? true : false )} onClick={handlePrev}>Prev</button>
-                <button className="btn" id="next" disabled={(page === circles.length ? true : false )} onClick={handleNext}>Next</button>
-            </div>n
+                <button className="btn" id="prev" disabled={(page<=1 ? true : false )} onClick={hadleNextPage}>Prev</button>
+                <button className="btn" id="next" disabled={(page === circles.length ? true : false )} onClick={hadlePrevPage}>Next</button>
+            </div>
             
 
         </div>
         <style jsx>{`
             
             .container {
+                position: relative;
                 text-align: center;
                 align-items: center;
-                justify-content: center;
+                top: 200px;
                 display: flex;
                 flex-direction: column;
                 height: 100vh;

@@ -7,7 +7,7 @@ export const list = [
     "id":1,
     "name":"Auto complete",
     "description":"Cards are expanded clicked",
-    "images":[img1],
+    "images":'https://i.ibb.co/Nxx3yqj/01.png',
     "deploy":"/auto-complete"
      
   },

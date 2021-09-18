@@ -4,14 +4,12 @@ import {AiFillGithub} from 'react-icons/ai';
 import {GrDeploy} from 'react-icons/gr';
 
 
-import imgs from '../assets/static/1.PNG';
-import { Link } from 'react-router-dom';
 
 
 
 const Card = ({data}) => {
-  const {name, description, images, deploy} = data;
-  const gitLab= 'https://gitlab.com/';
+  const {name, description, images, deploy, gitLab} = data;
+
 
   
     return (
@@ -24,7 +22,7 @@ const Card = ({data}) => {
             
               <div className="card">
                 <div className="imgBx">
-                    <img src={images[0]} alt={name}/>
+                    <img src={images} alt={name}/>
                 </div>
                 <div className="details">
                     <h1>What is {name}?</h1>
@@ -34,9 +32,15 @@ const Card = ({data}) => {
 
               <div className='button'>
                 <a href={gitLab} target="_blank" rel="noopener noreferrer"><button>CÓDIGO<AiFillGithub/></button></a>
-                <Link to={deploy}><button>DEPLOY<GrDeploy/></button></Link>
+                <a href={deploy}><button>DEPLOY<GrDeploy/></button></a>
               </div>
-            
+              <style jsx>
+                {`
+                  .details p{
+                    color: white
+                  }
+                `}
+              </style>
         </StyleCard>
       );
     };

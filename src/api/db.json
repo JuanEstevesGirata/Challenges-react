@@ -1,0 +1,247 @@
+[ 
+     
+    { 
+ 
+        "id": 1, 
+        "name": "Expanding cards", 
+        "description":"we will see how we can create an expanding card that displays an expanded view of the card on click.", 
+        "images": "https://i.ibb.co/VQ5pHvq/Expanding-Cards.png",  
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+ 
+    }, 
+    { 
+ 
+        "id": 2, 
+        "name": "Progress steps", 
+        "description":"Progress steps are great for user experience. You typically find these on signup pages and checkout forms where the user needs to enter data across multiple steps.", 
+        "images": "https://i.ibb.co/dbHwc89/Progress-Steps.jpg",  
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+ 
+    }, 
+    { 
+ 
+        "id": 3, 
+        "name": "Rotating navigation", 
+        "description":"with a click event and an arrow function create the effect to open and close the navigation", 
+        "images": "",  
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+ 
+    }, 
+    { 
+ 
+        "id": 4, 
+        "name": "Hidden search", 
+        "description":"If you click on the magnifying glass, the search bar expands. When you click again, it hides", 
+        "images": "https://i.ibb.co/CtFsNbh/04.png",  
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+ 
+    }, 
+    { 
+ 
+        "id": 5, 
+        "name": "Blurry Loading", 
+        "description":"In this challenge you will have a distorted image that will become sharp with the advance of the load", 
+        "images": "https://i.ibb.co/LzpGwVc/05.png",  
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+ 
+    }, 
+    { 
+ 
+        "id": 6, 
+        "name": "Drag N Drop", 
+        "description":"the user selects a virtual object by grabbing it and dragging it to a different location or onto another virtual object.", 
+        "images": "https://i.ibb.co/Pr9ntbn/06.png",  
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+ 
+    }, 
+    { 
+ 
+        "id": 7, 
+        "name": "AutoText", 
+        "description":"When the page loads, the automatic typing of the chosen phrase is executed", 
+        "images": "https://i.ibb.co/QcZ13wt/07.png",  
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+ 
+    }, 
+    { 
+ 
+        "id": 8, 
+        "name": "HoverBoard", 
+        "description":"In this challenge we have a board, when we pass the pointer over it, it will change it will mark traces with color", 
+        "images": "https://i.ibb.co/hWRdzTz/08.png",  
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+ 
+    }, 
+    { 
+ 
+        "id": 9, 
+        "name": "Scroll Animation", 
+        "description":"In this challenge we will have boxes that will have an effect when the page is scrolled", 
+        "images": "https://i.ibb.co/GdFkYPw/09.png",  
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+ 
+    }, 
+    { 
+ 
+        "id": 10, 
+        "name": "Form input wave", 
+        "description":"When you select the field to write your email or password, the statement of the field will have a wave effect", 
+        "images": "https://i.ibb.co/hsvzqvz/10.png",  
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+ 
+    }, 
+    { 
+        "id": 11, 
+        "name": "Dad Jokes", 
+        "description": "We took a compilation of jokes to be played randomly on screen.", 
+        "images": "https://maquevedo7.github.io/dad-jokes/", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://maquevedo7.github.io/dad-jokes/" 
+    }, 
+    { 
+        "id": 12, 
+        "name": "Sound Board", 
+        "description": "En este reto creamos un tablero conn varios botones que al darle clic suena un sonido diferente.", 
+        "images": "https://i.ibb.co/wwPHL3x/12.png", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+    }, 
+    { 
+        "id": 13, 
+        "name": "Live User Filter", 
+        "description": "En este reto creamos un filtro donde podremos encontrar a un usuario por su nombre o por su localización, para esto utilizaremos datos de la API Random User Generator .", 
+        "images": "https://i.ibb.co/X2RhLzY/13.png", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+    }, 
+    { 
+        "id": 14, 
+        "name": "Button Ripple Effect", 
+        "description": "En este reto creamos un botón que al darle clic nos genera un efecto visual", 
+        "images": "https://i.ibb.co/ss23pHv/14.png", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+    }, 
+    { 
+        "id": 15, 
+        "name": "Background Slider", 
+        "description": "En este reto creamos un carrusel de imágenes donde la imagen de fondo también cambia.", 
+        "images": "https://i.ibb.co/chPFYCb/15.png", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+    }, 
+    { 
+        "id": 16, 
+        "images":"https://i.ibb.co/0sgyZCK/Captura-de-pantalla-2021-09-15-164103.jpg", 
+        "name":"Kinetic Loader", 
+        "description":"With this project we will learn to make a spinner with pure CSS by using frames", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+ 
+    }, 
+    { 
+        "id": 17, 
+        "images":"https://i.ibb.co/TbH7w7S/Captura-de-pantalla-2021-09-15-164039.jpg", 
+        "name":"Netflix Mobile Navigation", 
+        "description":"With this project we will create a menu that will be displayed by touching a button", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+    }, 
+    { 
+        "id": 18, 
+        "images":"https://i.ibb.co/98GXQPQ/Captura-de-pantalla-2021-09-15-164028.jpg", 
+        "name":"Testimonial Box", 
+        "description":"With this project we want to make a card that shows information from a list of objects", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+ 
+    }, 
+    { 
+ 
+        "id": 19, 
+        "images":"https://i.ibb.co/PZR6kT7/Captura-de-pantalla-2021-09-15-164009.jpg", 
+        "name":"Pokedex", 
+        "description":"With this project we will create a list of pokemon cards. The information is extracted from an API", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+ 
+    }, 
+    { 
+        "id": 20, 
+        "images":"https://i.ibb.co/qCpBCGY/Captura-de-pantalla-2021-09-15-164052.jpg", 
+        "name":"Double Click Heart", 
+        "description":"With this project we will create a card that when we double click on the image a heart will come out", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+ 
+    }, 
+    { 
+        "id":21, 
+        "name": "Event Keycodes", 
+        "description": "With this program we are going to identify by an event, which key is pressed on the keyboard. and the information to the pressed key will be printed on the screen.", 
+        "images": "https://i.ibb.co/NTLb04g/21.png", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+    }, 
+    { 
+        "id":22, 
+        "name": "Mobile Nav Navigation", 
+        "description": "With this program we are going to identify by an event, which icon is pressed on the layout. And the information to the pressed icon in this case an image, will be printed on the layout.", 
+        "images": "https://i.ibb.co/Nx5q15j/22.png", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+    }, 
+    { 
+        "id":23, 
+        "name": "Drink Water", 
+        "description": "With this program we are going to identify by an event, how many icons are pressed in the layout. And depending on the quantity, we will fill or empty the main image.", 
+        "images": "https://i.ibb.co/Tm7jDH6/23.png", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+    }, 
+    { 
+        "id":24, 
+        "name": "Feedback UI Desing", 
+        "description": "With this program we are going to identify by an event, which icon is pressed in the layout, which has 3 emojis to measure satisfaction. And by pressing the send button, it will show which emoji was selected and a successful delivery message.", 
+        "images": "https://i.ibb.co/TTPYfZW/24.png", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+    }, 
+    { 
+        "id":25, 
+        "name": "GitHub Profile", 
+        "description": "With this program using input, we are going to ask an a username of github, and when press search, print the basic info of the user, using the github api", 
+        "images": "https://i.ibb.co/dr6CNKR/25.png", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+    }, 
+    { 
+        "id":26, 
+        "name": "StickyNavigation", 
+        "description": "With this program using input, we are going to ask an a username of github, and when press search, print the basic info of the user, using the github api", 
+        "images": "https://i.ibb.co/dr6CNKR/25.png", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+    }, 
+    { 
+         
+        "id":27, 
+        "name": "StickyNavigation", 
+        "description": "With this program using input, we are going to ask an a username of github, and when press search, print the basic info of the user, using the github api", 
+        "images": "https://i.ibb.co/dr6CNKR/25.png", 
+        "gitlab": "https://gitlab.com/juandavid.estevesgirata/challenges-javascript", 
+        "deploy": "https://challenges-javascript.vercel.app/" 
+    } 
+         
+     
+]
