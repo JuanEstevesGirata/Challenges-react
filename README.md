@@ -1,4 +1,4 @@
-# FULL-AUTH 
+# CHALLENGES-REACT 
 
 This project was bootstrapped with [Create React App], and it was created with:
 
