@@ -90,38 +90,6 @@ export const list = [
     "images":[{"src":"", "alt":"img1"},{"src":"", "alt":"img2"},{"src":"", "alt":"img3"}],
     "deploy":"/auto-complete"
      
-  },
-  {
-    "id":12,
-    "name":"Expanded Cards",
-    "description":"Cards are expanded clicked",
-    "images":[{"src":"", "alt":"img1"},{"src":"", "alt":"img2"},{"src":"", "alt":"img3"}],
-    "deploy":"/auto-complete"
-     
-  },
-  {
-    "id":13,
-    "name":"Expanded Cards",
-    "description":"Cards are expanded clicked",
-    "images":[{"src":"", "alt":"img1"},{"src":"", "alt":"img2"},{"src":"", "alt":"img3"}],
-    "deploy":"/auto-complete"
-     
-  },
-  {
-    "id":14,
-    "name":"Expanded Cards",
-    "description":"Cards are expanded clicked",
-    "images":[{"src":"", "alt":"img1"},{"src":"", "alt":"img2"},{"src":"", "alt":"img3"}],
-    "deploy":"/auto-complete"
-     
-  },
-  {
-    "id":15,
-    "name":"Expanded Cards",
-    "description":"Cards are expanded clicked",
-    "images":[{"src":"", "alt":"img1"},{"src":"", "alt":"img2"},{"src":"", "alt":"img3"}],
-    "deploy":"/auto-complete"
-     
   }
-
+  
 ]

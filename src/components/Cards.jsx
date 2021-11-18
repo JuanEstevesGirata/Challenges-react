@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useRef} from 'react'
 import Card from './Card'
 import {StyleCard } from '../assets/css/Cards'
-import list from '../api/db.json'
+import {list} from '../api/db.js'
 import Pagination from './Pagination'
 
 const Cards = () => {
