@@ -50,7 +50,7 @@ const ProgressSteps = () => {
             <div>
                 <button className="btn" id="prev" disabled={(currentStep<=1 ? true : false )} onClick={handlePrev}>Prev</button>
                 <button className="btn" id="next" disabled={(currentStep === circles.length ? true : false )} onClick={handleNext}>Next</button>
-            </div>n
+            </div>
             
 
         </div>
