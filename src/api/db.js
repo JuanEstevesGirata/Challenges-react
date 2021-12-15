@@ -75,21 +75,21 @@ export const list = [
     "route":"/scroll-animation"
      
   },
-  {
-    "id":10,
-    "name":"Search Bar Hidden",
-    "description":"Cards are expanded clicked",
-    "images":'https://images.pexels.com/photos/7245535/pexels-photo-7245535.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-    "route":"/search-hidden"
+  // {
+  //   "id":10,
+  //   "name":"Search Bar Hidden",
+  //   "description":"Cards are expanded clicked",
+  //   "images":'https://images.pexels.com/photos/7245535/pexels-photo-7245535.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+  //   "route":"/search-hidden"
      
-  },
-  {
-    "id":11,
-    "name":"Sounds Board",
-    "description":"Cards are expanded clicked",
-    "images":'https://images.pexels.com/photos/7245535/pexels-photo-7245535.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-    "route":"/sounds"
+  // },
+  // {
+  //   "id":11,
+  //   "name":"Sounds Board",
+  //   "description":"Cards are expanded clicked",
+  //   "images":'https://images.pexels.com/photos/7245535/pexels-photo-7245535.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+  //   "route":"/sounds"
      
-  }
+  // }
   
 ]

@@ -40,7 +40,6 @@ const FormWave = () => {
                 <style jsx>
                     {`
                     body{
-                        background-color:steelblue;
                         color:#fff;
                         font-family: 'Muli', sans-serif;
                         margin: 0;

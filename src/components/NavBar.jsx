@@ -1,18 +1,19 @@
 import {
     alpha,
     AppBar,
-    Avatar,
-    Badge,
     InputBase,
     makeStyles,
     Toolbar,
     Typography,
   } from "@material-ui/core";
-  import { Cancel, Mail, Notifications, Search} from "@material-ui/icons";
-  import { MdTextRotateVertical } from "react-icons/md";
+  import { Cancel, Search} from "@material-ui/icons";
   import { useState } from "react";
   
   const useStyles = makeStyles((theme) => ({
+    appbar:{
+      background: 'black',
+    },
+    
     toolbar: {
       display: "flex",
       justifyContent: "space-between",
@@ -71,7 +72,7 @@ import {
     const [open, setOpen] = useState(false);
     const classes = useStyles({ open });
     return (
-      <AppBar position="fixed">
+      <AppBar className={classes.appbar} position="fixed">
         <Toolbar className={classes.toolbar}>
           <Typography variant="h6" className={classes.logoLg}>
             React-JavaScript

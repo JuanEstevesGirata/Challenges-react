@@ -30,6 +30,8 @@ const SearchHidden = () => {
                     display: flex;
                     align-items: center;
                     justify-content: center; 
+                    position: relative;
+                    top: 150px;
                 }
 
 

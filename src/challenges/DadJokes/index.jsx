@@ -31,14 +31,15 @@ const DadJokes = () => {
         <div>
            <div class="container">
                 <h3>Don't Laugh Challenge</h3>
-                <div id="joke" class="joke">{joke.joke}</div>
+                {(joke && 
+                    <div id="joke" class="joke">{joke.joke}</div>    )}
+                
                 <button id="jokeBtn" class="btn" onClick={()=>setJokes(!jokes)}>Get Another Joke</button>
             </div>
             <style jsx>
                 {`
                     
                     body{
-                    background-color: #686de0;
                     font-family: 'Roboto', sans-serif;
                     display: flex;
                     flex-direction: column;

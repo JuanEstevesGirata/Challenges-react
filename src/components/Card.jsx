@@ -13,9 +13,10 @@ import { Link } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({
   card: {
     marginBottom: theme.spacing(5),
+    width: 400
   },
   media: {
-    height: 250,
+    height: 150,
     [theme.breakpoints.down("sm")]: {
       height: 150,
     },
@@ -33,19 +34,19 @@ const Post = ({ img, title, route , description}) => {
             <Link to={route}>{title}</Link>
           </Typography>
           <Typography variant="body2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            consectetur earum est.
+            {description}
           </Typography>
         </CardContent>
+        <CardActions>
+          <Button size="small" color="primary">
+            GitHub
+          </Button>
+          <Button size="small" color="primary">
+          <Link to={route}>View</Link>
+          </Button>
+        </CardActions>
       </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
-      </CardActions>
+
     </Card>
   );
 };

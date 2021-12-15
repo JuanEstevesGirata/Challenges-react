@@ -23,4 +23,12 @@
   
   .card-img-top:hover {
     transform: scale(1.8);
+    
+  }
+
+  .containergrid {
+    display: grid;
+    gap: 10 px;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   }

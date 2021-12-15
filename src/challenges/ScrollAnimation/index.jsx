@@ -15,21 +15,21 @@ const ScrollAnimation = () => {
             <div className='app'>
                 <h1>Scroll to see the animation</h1>
                 <div className='grid'>
-                    <div className="box"><h2>Content</h2></div>
-                    <div className="box" data-aos="fade-up"><h2>fade-up</h2></div>
-                    <div className="box" data-aos="fade-down"><h2>fade-down</h2></div>
-                    <div className="box" data-aos="fade-right"><h2>fade-right</h2></div>
-                    <div className="box" data-aos="fade-left"><h2>fade-left</h2></div>
-                    <div className="box" data-aos="fade-up-right"><h2>fade-up-right</h2></div>
-                    <div className="box" data-aos="fade-up-left"><h2>fade-up-left</h2></div>
-                    <div className="box" data-aos="fade-down-right"><h2>fade-down-right</h2></div>
-                    <div className="box" data-aos="fade-down-left"><h2>fade-down-left</h2></div>
-                    <div className="box" data-aos="flip-left"><h2>flip-left</h2></div>
-                    <div className="box" data-aos="flip-right"><h2>flip-right</h2></div>
-                    <div className="box" data-aos="flip-up"><h2>flip-up</h2></div>
-                    <div className="box" data-aos="flip-down"><h2>flip-down</h2></div>
-                    <div className="box" data-aos="zoom-in"><h2>zoom-in</h2></div>
-                    <div className="box" data-aos="zoom-out"><h2>zoom-up</h2></div>
+                    <div className="box"><h2>CONTENT</h2></div>
+                    <div className="box" data-aos="fade-up"><h2>FADE-UP</h2></div>
+                    <div className="box" data-aos="fade-down"><h2>FADE-DOWN</h2></div>
+                    <div className="box" data-aos="fade-right"><h2>FADE-RIGHT</h2></div>
+                    <div className="box" data-aos="fade-left"><h2>FADE-LEFT</h2></div>
+                    <div className="box" data-aos="fade-up-right"><h2>FADE-UP-RIGHT</h2></div>
+                    <div className="box" data-aos="fade-up-left"><h2>FADE-UP-LEFT</h2></div>
+                    <div className="box" data-aos="fade-down-right"><h2>FADE-DOWN-RIGHT</h2></div>
+                    <div className="box" data-aos="fade-down-left"><h2>FADE-DOWN-LEFT</h2></div>
+                    <div className="box" data-aos="flip-left"><h2>FLIP-LEFT</h2></div>
+                    <div className="box" data-aos="flip-right"><h2>FLIP-RIGHT</h2></div>
+                    <div className="box" data-aos="flip-up"><h2>FLIP-UP</h2></div>
+                    <div className="box" data-aos="flip-down"><h2>FLIP-DOWN</h2></div>
+                    <div className="box" data-aos="zoom-in"><h2>ZOOM-IN</h2></div>
+                    <div className="box" data-aos="zoom-out"><h2>ZOOM-UP</h2></div>
                 </div>
             </div>
             <style jsx>

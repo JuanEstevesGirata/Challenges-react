@@ -7,22 +7,22 @@ import {RiContactsFill as Contact} from 'react-icons/ri'
 
 
 const RotatingNavigation = () => {
-    // const [nav, setNav] = useState(false)
+    const [nav, setNav] = useState(false)
 
 
-    // const handleNav = () =>{
-    //     setNav(!nav)
-    // }
+    const handleNav = () =>{
+        setNav(!nav)
+    }
 
     return (
         <>
-            <div classNameName="container">
+            <div className={nav ? `container show-nav`: `container`}>
                 <div className="circle-container">
                     <div className="circle">
-                        <button id="close">
+                        <button id="close" onClick={handleNav}>
                             <Close/>
                         </button>
-                        <button id="open" >
+                        <button id="open" onClick={handleNav}>
                             <Menu/>
                         </button>
                     </div>
@@ -30,12 +30,11 @@ const RotatingNavigation = () => {
 
                 <div className="content">
                     <h1>Amazing Blog Post</h1>
-                    <small>Asish George</small>
+                    
 
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, ea. Et quibusdam sapiente minus dolores repellat. Unde ullam rerum debitis blanditiis, earum atque! Atque similique animi expedita fuga itaque, culpa reprehenderit corporis. Tempora, ipsam deserunt velit ullam rerum repellat quibusdam facere enim nulla voluptatum quasi eligendi pariatur reiciendis suscipit sit culpa, omnis amet praesentium. Eum quisquam voluptate consequuntur modi fugiat laborum a, vero quibusdam hic eligendi voluptas excepturi ex ipsum nam dicta minus magnam quidem sapiente veniam voluptatibus nesciunt! Error consectetur modi suscipit ea unde eum itaque, asperiores, ab perferendis earum accusantium dolorem magnam. Ad facere excepturi numquam odit expedita.</p>
                     <h1>Blog Post 2</h1>
-                    <small>Asish George</small>
-
+                    
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, ea. Et quibusdam sapiente minus dolores repellat.
                         Unde ullam rerum debitis blanditiis, earum atque! Atque similique animi expedita fuga itaque, culpa reprehenderit
                         corporis. Tempora, ipsam deserunt velit ullam rerum repellat quibusdam facere enim nulla voluptatum quasi eligendi
@@ -57,6 +56,7 @@ const RotatingNavigation = () => {
 
             <style jsx>{`
             body{
+    
                 background-color: #333;
                 color:#222;
                 font-family: 'Lato', sans-serif;
@@ -65,6 +65,8 @@ const RotatingNavigation = () => {
             }
 
             .container{
+                position: relative;
+                top: 60px;
                 background-color:#fafafa;
                 min-height:100vh;
                 width:100vw;
@@ -73,7 +75,7 @@ const RotatingNavigation = () => {
                 transition:transform 0.5s linear;
             }
 
-            .container.show-nav{
+            .container .show-nav{
                 transform: rotate(-20deg);
             }
 
@@ -84,11 +86,12 @@ const RotatingNavigation = () => {
             }
 
             .circle{
-                background-color: #ff7979;
+                background-color: ${nav ? 'rgb(226,226,226)' : 'black'};
                 height:200px;
                 width: 200px;
                 border-radius: 50%;
                 position: relative;
+                top: 60px;
                 transition: transform 0.5s linear;
             }
 
@@ -113,9 +116,12 @@ const RotatingNavigation = () => {
             }
 
             .circle button#close{
-                top:60%;
-                transform:rotate(90deg);
+                top:50%;
+                left: 40%;
+                transform:rotate(45deg);
                 transform-origin: top left;
+                font-size: 50px;
+                
             }
 
             .container.show-nav .circle{
@@ -126,6 +132,8 @@ const RotatingNavigation = () => {
                 position: fixed;
                 bottom:40px;
                 left: 0px;
+       
+                width: 150px;
             }
 
             nav ul{
@@ -135,7 +143,7 @@ const RotatingNavigation = () => {
 
             nav ul li{
                 text-transform: uppercase;
-                color:#fff;
+                color:black;
                 margin: 40px 0;
                 transform: translateX(-100%);
                 transition: transform 0.4s ease;
@@ -146,16 +154,7 @@ const RotatingNavigation = () => {
                 font-size: 20px;
                 margin-right: 10px;
             }
-
-            nav ul li + li{
-                margin-left: 15px;
-                transform: translateX(-150%);
-            }
-
-            nav ul li + li + li{
-                margin-left: 30px;
-                transform: translateX(-200%);
-            }
+            
 
             .container.show-nav + nav li{
                 transform: translateX(0);

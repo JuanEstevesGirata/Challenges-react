@@ -18,14 +18,14 @@ import Cards from "./components/Cards";
 import NavBar from './components/NavBar';
 
 
-
+import { Grid, makeStyles } from "@material-ui/core";
 
 function App() {
   return (
     <>
       <NavBar/>
       
-      
+   
       <Switch>
         <Route exact path = '/'><Cards/></Route>
         <Route path = '/progress-step'><ProgressSteps/></Route>
